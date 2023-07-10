@@ -64,6 +64,12 @@
     background: #111010
 }
 
+header li:hover {
+    display: block;
+    background: rgb(48, 47, 47);
+    cursor: pointer;
+}
+
 /* Introduction Part Style */
 
 .introduction-title {
@@ -243,7 +249,7 @@
     text-align: center;
 }
 
-.input-email{
+.input-subscribe {
     width: 400px;
     height: 40px;
     border: 0;
@@ -253,16 +259,48 @@
 
 /* Footer Style */
 
-.footer-container{
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: #111010;
     text-align: center;
-    padding: 80px 370px;
+    padding: 20px 20px;
 }
 
-.footer-detail{
+.footer-detail {
     color: rgba(255, 255, 255, 0.90);
 }
 
 .copy-right {
     color: rgba(255, 255, 255, 0.40);
+}
+
+.contact-title {
+    color: white;
+}
+
+.contact-us {
+    text-align: left;
+    gap: 10px;
+}
+
+.foother-detail {
+    width: 500px;
+}
+
+.input-name {
+    width: 230px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.input-mail {
+    width: 230px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.input-area {
+    width: 230px;
 }
