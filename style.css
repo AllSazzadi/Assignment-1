@@ -8,13 +8,13 @@
 /* Shared style */
 .primary-logo {
     color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+
 }
 
 .logo-color {
     color: #E55473;
-    font-size: 48px;
-    font-weight: 800;
-
 }
 
 .paragraph-style {
@@ -74,11 +74,10 @@
 
 .introduction {
     display: flex;
+    padding: 30px 30px 0px 30px;
     background: rgba(229, 84, 115, 0.10);
-    height: 100vh;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
+    align-items:center;
+    justify-content: space-around;
     gap: 50px;
 
 }
@@ -89,7 +88,7 @@
 }
 
 .introduction-container {
-    width: 50%;
+    width: 450px;
 }
 
 .introduction-title {
@@ -153,7 +152,7 @@
     text-decoration-line: underline;
 }
 
-.Featured-Flowers-title{
+.Featured-Flowers-title {
     width: 50%;
     text-align: center;
     margin: auto;
@@ -162,7 +161,7 @@
 
 /* Delivery-Support Style */
 
-.Delivery-Support-Container{
+.Delivery-Support-Container {
     display: flex;
     gap: 20px;
     text-align: center;
