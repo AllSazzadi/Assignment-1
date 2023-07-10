@@ -3,3 +3,36 @@
     margin: 0;
     padding: 0;
 }
+
+/* Shared style */
+.primary-logo{
+    color: #FFFFFF;
+}
+
+.logo-color{
+    color: #E55473;
+}
+
+/* Navigation part style */
+
+.navigation{
+    
+}
+.menue{
+    color: #E55473;
+}
+
+.menue-container{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navigation-main{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background: #111010
+}
