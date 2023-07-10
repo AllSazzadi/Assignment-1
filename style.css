@@ -152,3 +152,25 @@
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+.Featured-Flowers-title{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+/* Delivery-Support Style */
+
+.Delivery-Support-Container{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    width: 65%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px 50px;
+}
