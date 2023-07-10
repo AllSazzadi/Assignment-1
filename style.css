@@ -81,3 +81,15 @@
     width: 450px;
     height: 550px;
 }
+
+.introduction-container{
+    width: 50%;
+}
+
+.introduction-title{
+    margin-bottom: 20px;
+}
+
+.introduction-detail{
+    margin-bottom: 20px;
+}
